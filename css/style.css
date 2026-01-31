@@ -206,9 +206,11 @@ p {
 	font-family: "Cezanne Regular", serif;
 	text-align: left;
 	color: #e3d8c1;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
 	padding-left: 0;
 	margin-left: 50px;
+	
+	
 }
 .title a, .title a:visited, .title a:hover, .title a:active {
   color: #FFFFFF !important;
