@@ -200,6 +200,12 @@
 	letter-spacing: 2px;
 	padding-left: 10px;
 }
+.title a, .title a:visited, .title a:hover, .title a:active {
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+  font-weight: bold;
+  transition: none;
+}
 .placeholder {
 	/* [disabled]max-width: 400px;
 */
@@ -283,8 +289,9 @@ body {
   color: #7A6E47;
   text-decoration: none;
 }
-.artikel-title-link, .artikel-title-link:hover {
-  text-decoration: none;
+.artikel-title-link, .artikel-title-link:visited, .artikel-title-link:hover, .artikel-title-link:active {
+  color: #FFFFFF !important;
+  text-decoration: none !important;
   font-weight: bold;
   transition: none;
 }
