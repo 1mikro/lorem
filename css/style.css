@@ -69,12 +69,15 @@
 	color: #442d1c;
 }
 .primary_header {
-	width: 100%;
-	background-color: #5c4033;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	clear: left;
-	border-bottom: 2px solid #66371b;
+  width: 100%;
+  background-color: #5c4033;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  clear: left;
+  border-bottom: 2px solid #66371b;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .secondary_header {
 	width: 100%;
@@ -198,7 +201,8 @@
 	text-align: left;
 	color: #e3d8c1;
 	letter-spacing: 2px;
-	padding-left: 10px;
+	padding-left: 0;
+	margin-left: 50px;
 }
 .title a, .title a:visited, .title a:hover, .title a:active {
   color: #FFFFFF !important;
@@ -302,6 +306,14 @@ body {
   }
   .store-img-col, .store-text-col {
     max-width: 100%;
+  }
+  .title {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .primary_header {
+    justify-content: center;
   }
 }
 
