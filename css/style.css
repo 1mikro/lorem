@@ -299,6 +299,18 @@ body {
   font-weight: bold;
   transition: none;
 }
+.row .columns:nth-child(1) .thumbnail {
+  border-radius: 172px;
+}
+.row .columns:nth-child(2) .thumbnail {
+  border-radius: 148px;
+}
+.row .columns:nth-child(3) .thumbnail {
+  border-radius: 256px;
+}
+.row .columns:nth-child(4) .thumbnail {
+  border-radius: 189px;
+}
 @media (max-width: 800px) {
   .store-row {
     flex-direction: column;
