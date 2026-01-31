@@ -283,6 +283,12 @@ body {
   color: #FFFFFF;
   text-decoration: none;
 }
+.artikel-title-link, .artikel-title-link:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  transition: none;
+}
 @media (max-width: 800px) {
   .store-row {
     flex-direction: column;
