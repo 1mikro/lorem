@@ -4,13 +4,13 @@
 @font-face {
   font-family: 'OPTI Garamond Special-Light';
   src: url('fonts/OPTIGaramondSpecial-Light.otf') format('otf')
-  font-weight: 300; /* Oder die passende Stärke */
+  font-weight: 100; /* Oder die passende Stärke */
   font-style: normal;
 }
 @font-face {
   font-family: 'Cezanne Regular';
   src: url('fonts/CezanneRegular.woff2') format('woff2');
-  font-weight: 300; /* Oder die passende Stärke */
+  font-weight: 100; /* Oder die passende Stärke */
   font-style: normal;
 }
 
