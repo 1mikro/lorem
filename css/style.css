@@ -5,13 +5,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
-  font-family: 'times';
-  src: url('fonts/times.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'OPTI Garamond Special-Light';
+  src: url('fonts/OPTIGaramondSpecial-Light.otf') format('otf')
+  font-weight: 300; /* Oder die passende Stärke */
   font-style: normal;
 }
-
 .container {
 	background-color: #FFFFFF;
 	width: 90%;
@@ -197,7 +197,7 @@
 	
 	font-weight: bold;
 	font-style: normal;
-	font-family: "times";
+	font-family: "OPTI Garamond Special-Light", serif;
 	text-align: left;
 	color: #e3d8c1;
 	letter-spacing: 2px;
