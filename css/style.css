@@ -297,12 +297,6 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-.store-text-col h4 {
-  margin-bottom: 0.2em;
-}
-.store-text-col p {
-  margin-top: 0.2em;
-}
 .store-img-col figcaption a {
   color: #01B2D1;
   text-decoration: none;
@@ -594,10 +588,10 @@ body {
   border-radius: 16px;
 }
 .store_image {
-  width: 132px;
-  height: 132px;
+  width: 400px;
+  height: 300px;
   object-fit: cover;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: auto 3 / 2;
   border-radius: 16px;
   margin-bottom: 20px;
 }
