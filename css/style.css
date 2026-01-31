@@ -12,6 +12,17 @@
   font-weight: 300; /* Oder die passende Stärke */
   font-style: normal;
 }
+@font-face {
+  font-family: 'Cezanne Regular';
+  src: url('fonts/CezanneRegular.ttf') format('truetype');
+  font-weight: 300; /* Oder die passende Stärke */
+  font-style: normal;
+}
+
+p {
+  font-family: 'OPTI Garamond Special-Light', serif !important;
+}
+
 .container {
 	background-color: #FFFFFF;
 	width: 90%;
@@ -197,7 +208,7 @@
 	
 	font-weight: bold;
 	font-style: normal;
-	font-family: "OPTI Garamond Special-Light", serif;
+	font-family: "Cezanne Regular", serif;
 	text-align: left;
 	color: #e3d8c1;
 	letter-spacing: 2px;
