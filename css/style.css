@@ -1,10 +1,5 @@
 @charset "UTF-8";
-@font-face {
-  font-family: 'fadeline';
-  src: url('fonts/fadeline.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 @font-face {
   font-family: 'OPTI Garamond Special-Light';
@@ -14,7 +9,7 @@
 }
 @font-face {
   font-family: 'Cezanne Regular';
-  src: url('fonts/CezanneRegular.ttf') format('truetype');
+  src: url('fonts/CezanneRegular.woff2') format('woff2');
   font-weight: 300; /* Oder die passende Stärke */
   font-style: normal;
 }
